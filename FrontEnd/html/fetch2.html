@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/fetch2.css">
+</head>
+
+<body>
+
+    <div>
+        <nav>
+            <ul>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="">Delete</a></li>
+                <li><a href="">Update</a></li>
+                <li><a href="">Search</a></li>
+                <li><a href="fetch2.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="searchBar">
+        <input type="text" class="search" placeholder="Search">
+        <button onclick="getDepartmentById()">Submit</button>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status" id="loading">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <h1>Registered Departments</h1>
+    <!-- table for showing data -->
+    <table id="employees"></table>
+
+</body>
+<script type="text/javascript" src="../js/fetch2.js"></script>
+
+</html>

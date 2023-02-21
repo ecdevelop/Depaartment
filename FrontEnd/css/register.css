@@ -1,0 +1,48 @@
+
+@import "../css/fetch2.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: papayawhip;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.register{
+    border: 1px solid black;
+    width: 30%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.register input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;  
+    margin-bottom: 10px;
+    font-size: medium;
+    padding: 5px;
+}
+
+.register button{
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+}
+
+.register span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    font-size: small;
+}
